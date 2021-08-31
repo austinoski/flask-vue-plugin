@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: 'https://sample-plugin-flask.herokuapp.com'
-}
+    publicPath: process.env.BASE_URL
+  }
